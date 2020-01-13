@@ -1,0 +1,323 @@
+.section3 {
+  padding: 8% 0;
+  width: 100%;
+}
+
+.section3 .header3 {
+  padding: 4%;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -15%;
+}
+
+.section3 .container {
+  padding-top: 0;
+}
+
+.section3 .container .owl-carousel {
+  padding: 0;
+}
+
+.section3 .container .owl-carousel .item {
+  position: relative;
+}
+
+.section3 .container .owl-carousel .item .add-card {
+  display: none;
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  left: 22%;
+}
+
+.section3 .container .owl-carousel .item .add-card a:first-child {
+  color: white;
+  padding: 3% 8%;
+  background-color: black;
+  border-radius: 23px;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.section3 .container .owl-carousel .item .add-card a:hover {
+  background-color: #e65540;
+}
+
+.section3 .container .owl-carousel .item .sp {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  padding: 1px 10px;
+  border-radius: 23px;
+  color: white;
+}
+
+.section3 .container .owl-carousel .item .new {
+  background-color: #66a8a6;
+}
+
+.section3 .container .owl-carousel .item .sale {
+  background-color: #e65540;
+}
+
+.section3 .container .owl-carousel .item i {
+  position: absolute;
+  top: 5%;
+  left: 90%;
+}
+
+.section3 .container .owl-carousel .item:hover .add-card {
+  display: block;
+}
+
+.section3 .container .owl-carousel div {
+  padding-top: 3%;
+}
+
+.section3 .container .owl-carousel div a {
+  font-weight: 100;
+  font-size: 110%;
+  text-decoration: none;
+  color: #7c7a7a;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.section3 .container .owl-carousel div a:hover {
+  color: #be4f3c;
+}
+
+.section3 .container .owl-carousel div p {
+  color: #7c7a7a;
+  font-size: 110%;
+}
+
+.section3 .container .owl-carousel div p:last-child span:first-child {
+  text-decoration: line-through;
+}
+
+.section3 .container .owl-carousel div p:last-child span:last-child {
+  color: #be4f3c;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid .row {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid .row .col-12:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-fluid .row .col-12:first-child .img-list {
+  margin: 5%;
+  width: 60%;
+}
+
+.container-fluid .row .col-12:first-child .img-list li {
+  list-style: none;
+  margin-top: 13%;
+}
+
+.container-fluid .row .col-12:first-child .img-list li:active {
+  outline: 3px solid #979797;
+}
+
+.container-fluid .row .col-12:first-child .img {
+  margin-top: 7%;
+}
+
+.container-fluid .row .right {
+  padding: 3%;
+}
+
+.container-fluid .row .right h2 {
+  font-size: 170%;
+  font-weight: 400;
+}
+
+.container-fluid .row .right .head {
+  font-size: 180%;
+  color: #7c7a7a;
+}
+
+.container-fluid .row .right .sec {
+  color: #7c7a7a;
+  font-size: 90%;
+}
+
+.container-fluid .row .right form select {
+  padding: 2%;
+  width: 90%;
+}
+
+.container-fluid .row .right form option {
+  margin: 1%;
+  color: #7c7a7a;
+  background-color: #e65540;
+  list-style: none;
+}
+
+.container-fluid .row .right form option:hover {
+  background-color: #e65540;
+  color: white;
+}
+
+.container-fluid .row .right form .color {
+  padding: 2% 5%;
+}
+
+.container-fluid .row .right form .color select {
+  margin-left: 3px;
+  border-color: #b3b0b0;
+  color: #3b3b3b;
+  font-size: 90%;
+}
+
+.container-fluid .row .right form .color span {
+  font-size: 90%;
+  color: #7c7a7a;
+}
+
+.container-fluid .row .right form .size {
+  padding: 2% 5%;
+}
+
+.container-fluid .row .right form .size select {
+  margin-left: 2%;
+  border-color: #b3b0b0;
+  color: #3b3b3b;
+  font-size: 90%;
+}
+
+.container-fluid .row .right form .size span {
+  font-size: 90%;
+  color: #7c7a7a;
+}
+
+.container-fluid .row .right form .button {
+  padding: 2% 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-fluid .row .right form .button .right-button {
+  background-color: #d8d6d6;
+  padding: 1px;
+  width: 30%;
+}
+
+.container-fluid .row .right form .button .right-button button {
+  font-size: 120%;
+  font-weight: bold;
+  padding: 3% 9%;
+  color: #3b3b3b;
+  background-color: #d8d6d6;
+  border: none;
+}
+
+.container-fluid .row .right form .button .right-button button:active {
+  background-color: #e65540;
+  color: white;
+  outline: none;
+}
+
+.container-fluid .row .right form .button .right-button input {
+  text-align: center;
+  border: none;
+  height: 40px;
+  width: 40%;
+}
+
+.container-fluid .row .right form .button .left-button {
+  text-align: left;
+  width: 40%;
+}
+
+.container-fluid .row .right form .button .left-button button {
+  background-color: black;
+  color: white;
+  padding: 5% 11%;
+  border: none;
+  border-radius: 23px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.container-fluid .row .right form .button .left-button button:hover {
+  background-color: #e65540;
+}
+
+.container-fluid .row .right .form-foot {
+  margin-top: 5%;
+}
+
+.container-fluid .row .right .form-foot .span {
+  margin: 2%;
+  color: #7c7a7a;
+  font-size: 90%;
+}
+
+.container-fluid .row .right .description h5 {
+  font-size: 120%;
+  font-weight: 500;
+}
+
+.container-fluid .row .right .description .text {
+  padding: 3%;
+}
+
+.container-fluid .row .right .description .text p {
+  color: #7c7a7a;
+  font-size: 90%;
+}
+
+.arrow a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+  z-index: 1000;
+  background-color: #b1b1b1;
+  position: absolute;
+  left: 95%;
+  top: 90%;
+  position: fixed;
+  text-decoration: none;
+  color: white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.arrow a:hover {
+  background-color: #e6614d;
+}
+/*# sourceMappingURL=product.css.map */
